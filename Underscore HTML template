@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head> 
+<title>  </title>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+
+</head>
+<body>
+<h1> Let's Try UnderscoreJS ! </h1>>
+
+<script>
+
+ // var colors = ["blue", "yellow", "white", "black", 'purple']
+ // var country = ['Sweden', 'Mexico', 'Norway', 'South Africa', 'Uraguay']
+ 
+
+// var obj1= {
+// 	b1: "books",
+// 	b2: "audio",
+// 	b3: "books"
+// }
+ 
+ // var item=_.filter("books", obj1);
+
+arr1 = [1,2,3,5,4,6,7,8,9]
+
+ var oddValues = function(array){
+    return _.filter(array, function(element){ 
+      return (element % 2 ) !== 0; 
+    });
+}
+
+oddValues(arr1);
+
+
+ console.log(oddValues(arr1));
+
+
+</script>
+</body>
+</html>
